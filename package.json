@@ -1,0 +1,20 @@
+{
+  "name": "email-signature",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-transform-parameters": "^7.12.1",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babelify": "^10.0.0",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "browserify-shim": "^3.8.14",
+    "gulp-tasks": "git+https://github.com/johnshopkins/gulp-tasks#v1.0.0",
+    "node-underscorify": "0.0.11",
+    "react-sortablejs": "^6.0.0"
+  },
+  "browserify-shim": {
+    "react": "global:React",
+    "react-dom": "global:ReactDOM"
+  }
+}
